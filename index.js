@@ -106,3 +106,12 @@ window.addEventListener('keydown', e => {
             break;
     }
 })
+
+const calculate = () => {
+    const equal = document.querySelector('.equal');
+    equal.addEventListener('click', () => {
+        let ans = eval(result.innerHTML);
+        result.innerHTML = ans;
+        return result.innerHTML;
+    })
+}
