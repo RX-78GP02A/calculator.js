@@ -29,3 +29,33 @@ html {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
+
+.screen{
+  height: 80px;
+  width: 96.5%;
+  margin: 10px 5px 10px 5px;
+  text-align: right;
+  font-size: 4rem;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #252525;
+  color: #fff;
+  overflow: hidden;
+  border: none;
+  user-select: text;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.keys{
+  display: grid;
+  grid-template: repeat(5, 60px)/ repeat(4, 1fr);
+  gap: 1px;
+  justify-content: center;
+  margin: 0 6px 5px;
+  margin-bottom: 5px;
+}
