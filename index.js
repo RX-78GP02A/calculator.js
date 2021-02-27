@@ -14,3 +14,16 @@ const displayNumbers = () => {
         })
     }
 }
+
+const clearScreen = () => {
+    const clear = document.querySelector('.clear');
+    clear.addEventListener('click', () => {
+        result.innerHTML = 0;
+    })
+
+}
+
+const backspace = () => {
+    let value = result.innerHTML;
+    result.innerHTML = value.substr(0, value.length - 1);
+}
