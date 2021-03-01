@@ -45,6 +45,23 @@ html {
   margin-bottom: 5px;
 }
 
+.keys > div{
+  border: 1px solid rgb(236, 230, 230);
+  text-align: center;
+  display: grid;
+  align-content: center;
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
 .keys > div:active{
   top: 3px;
 }
