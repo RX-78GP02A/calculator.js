@@ -17,14 +17,14 @@ html {
     box-sizing: inherit;
   }
 
-  .container{
-    border: 1px solid #000;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    margin: 50px 0;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
+.container{
+  border: 1px solid #000;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
@@ -60,11 +60,3 @@ html {
   margin-bottom: 5px;
 }
 
-.keys{
-  display: grid;
-  grid-template: repeat(5, 60px)/ repeat(4, 1fr);
-  gap: 1px;
-  justify-content: center;
-  margin: 0 6px 5px;
-  margin-bottom: 5px;
-}
