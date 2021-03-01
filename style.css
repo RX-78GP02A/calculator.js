@@ -30,6 +30,19 @@ html {
   -o-border-radius: 4px;
 }
 
+.keys{
+  display: grid;
+  grid-template: repeat(5, 60px)/ repeat(4, 1fr);
+  gap: 1px;
+  justify-content: center;
+  margin: 0 6px 5px;
+  margin-bottom: 5px;
+}
+
+.operator{
+  background-color: rgb(97, 236, 4);
+}
+
 .screen{
   height: 80px;
   width: 96.5%;
@@ -38,7 +51,7 @@ html {
   font-size: 4rem;
   padding: 10px;
   box-sizing: border-box;
-  background-color: #252525;
+  background-color: #000000;
   color: #fff;
   overflow: hidden;
   border: none;
@@ -51,12 +64,5 @@ html {
   -o-border-radius: 4px;
 }
 
-.keys{
-  display: grid;
-  grid-template: repeat(5, 60px)/ repeat(4, 1fr);
-  gap: 1px;
-  justify-content: center;
-  margin: 0 6px 5px;
-  margin-bottom: 5px;
-}
+
 
