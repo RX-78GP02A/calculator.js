@@ -115,3 +115,21 @@ const calculate = () => {
         return result.innerHTML;
     })
 }
+
+remove.addEventListener('click', backspace);
+
+let decimal = document.querySelector('.point');
+decimal.addEventListener('click', () => {
+    if (!result.innerHTML.includes('.')) {
+        result.innerHTML += '.'
+    }
+})
+
+const calculator = () => {
+    clearScreen()
+    displayNumbers()
+    operator()
+    calculate()
+}
+
+calculator();
