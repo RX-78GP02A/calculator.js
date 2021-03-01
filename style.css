@@ -16,6 +16,9 @@ html {
   padding: 0;
   box-sizing: inherit;
 }
+.clear{
+  background-color: rgb(4, 90, 71);
+}
 
 .container{
   border: 1px solid #000;
@@ -46,7 +49,7 @@ html {
 }
 
 .keys > div{
-  border: 1px solid rgb(236, 230, 230);
+  border: 1px solid rgb(0, 0, 0);
   text-align: center;
   display: grid;
   align-content: center;
@@ -64,6 +67,10 @@ html {
 
 .keys > div:active{
   top: 3px;
+}
+
+.keys > div:hover{
+  background-color: rgb(4, 226, 152);
 }
 
 .operator{
