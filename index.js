@@ -3,6 +3,7 @@ const result = document.querySelector('.screen');
 const operators = document.querySelectorAll('.keys');
 const numbers = document.getElementsByClassName('number');
 
+
 const displayNumbers = () => {
     for (i = 0; i < numbers.length; i++) {
         numbers[i].addEventListener('click', e => {
