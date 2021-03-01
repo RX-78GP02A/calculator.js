@@ -45,6 +45,10 @@ html {
   margin-bottom: 5px;
 }
 
+.keys > div:active{
+  top: 3px;
+}
+
 .operator{
   background-color: rgb(104, 199, 159);
 }
