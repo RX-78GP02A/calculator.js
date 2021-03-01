@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.google.com/specimen/Bungee+Shade');
+
 body{
   box-sizing: border-box;
   display: flex;
@@ -31,6 +34,14 @@ html {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 2rem;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-family: Bungee Shade;
 }
 
 .equal{
@@ -86,7 +97,7 @@ html {
   padding: 10px;
   box-sizing: border-box;
   background-color: #000000;
-  color: #fff;
+  color: rgb(77, 255, 181);
   overflow: hidden;
   border: none;
   user-select: text;
